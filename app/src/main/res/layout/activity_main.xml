@@ -26,9 +26,13 @@
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
     </LinearLayout>
+
     <Button
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawablePadding="4dp"
         android:text="@string/next_button" />
 </LinearLayout>
